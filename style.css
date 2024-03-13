@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+#palya {
+    background-color: lightblue;
+    display: grid;
+    grid-template-areas: 1fr 1fr 1fr;
+}
+.negyzet {
+    width: 100px;
+}
+.alak {
+    background-color: gray;
+    border: 2px solid black;
+}
