@@ -3,26 +3,36 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-    max-width: 300px;
+    max-width: 400px;
     margin: auto;
     background-color: #27bdac;
 }
 main {
-    width: 160px;
+    width: 320px;
 }
 h1 {
-    font-size: 190%;
+    font-size: 380%;
+}
+.leiras p {
+    text-align: center;
+    font-size: 220%;
+}
+.leiras {
+    background-color: white;
+    border: 5px solid gray;
+    border-radius: 10%;
+    padding: 10px;
 }
 #palya {
     background-color: #1ea192;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 10px;
 }
 .negyzet {
     background-color: #27bdac;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     text-align: center;
-    font-size: 250%;
+    font-size: 500%;
 }
